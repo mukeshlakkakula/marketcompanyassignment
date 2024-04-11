@@ -1,6 +1,9 @@
 This is the Marketesq.io - Assignment .
 Where it helped me to know how much I have knowledge on react.js
 
+URL : https://mukeshmarkeioassignment.vercel.app/ 
+
+
 ### Set Up Instructions
 
 <details>
@@ -23,7 +26,7 @@ Where it helped me to know how much I have knowledge on react.js
   - I have completed all the functionalities .
   - I have used only the resources (React.js, Bootstrap, third-party packages ...) mentioned in the assignment
   - I have modified the README.md file based on my project instructions
-  -
+  - This is fully Responsive website
 - </details>
 
 ### Quick Tips
