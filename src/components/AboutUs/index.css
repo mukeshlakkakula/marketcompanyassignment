@@ -1,0 +1,39 @@
+.imgAbout {
+  width: 497px;
+  height: 347px;
+  object-fit: fill;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.About_innerContainer {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutFullContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutOuterContainer {
+  width: 80%;
+}
+
+@media (max-width: 786px) {
+  .AboutOuterContainer {
+    width: 100%;
+  }
+  .About_innerContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .imgAbout {
+    width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+.footerfullContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 20px;
+  background-color: rgba(6, 6, 6, 0.952);
+  color: #fff;
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 786px) {
+  .btnContact {
+    font-size: 13px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+}

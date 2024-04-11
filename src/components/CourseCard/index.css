@@ -1,0 +1,43 @@
+.courseCardinnerContainer {
+  display: flex;
+  min-height: 386px;
+}
+
+.imgCourse {
+  height: 386px;
+  padding: 20px;
+  width: 306px;
+}
+
+.courseInnerDivs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.courseFullContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (max-width: 786px) {
+  .courseCardinnerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgCourse {
+    width: 100%;
+    height: auto;
+  }
+
+  .courseFullContainer {
+    padding: 2px;
+  }
+
+  .courseInnerDivs {
+    padding: 10px;
+  }
+}

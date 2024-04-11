@@ -1,0 +1,34 @@
+.classImg {
+  width: 510px;
+  height: 297px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.classesinnerContainer {
+  display: flex;
+  padding: 10px;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+@media (max-width: 786px) {
+  .classesinnerContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .classImg {
+    width: 98%;
+    height: 300px;
+  }
+
+  .descriptionContainer {
+    padding: 10px;
+  }
+}
