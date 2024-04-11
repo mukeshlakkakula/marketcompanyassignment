@@ -3,6 +3,7 @@ import { useCourse } from "../CourseContext";
 import { FaShoppingCart } from "react-icons/fa";
 import "./index.css";
 import { useEffect, useState } from "react";
+import { IoPersonSharp } from "react-icons/io5";
 
 const Header = (props) => {
   const { activeRoute, setActiveRoute } = useCourse();
@@ -100,10 +101,7 @@ const Header = (props) => {
               }
               value="register"
             >
-              <img
-                src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712743527/R3JvdXBfMl9ra2VmZWY=/grid_landscape"
-                alt="headicon"
-              />
+               <IoPersonSharp />
             </button>
           </Link>
           <Link
