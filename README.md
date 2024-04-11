@@ -3,7 +3,8 @@ Where it helped me to know how much I have knowledge on react.js
 
 URL : https://mukeshmarkeioassignment.vercel.app/ 
 
-Before using this URL login/Sign up in the Cloudinary website I will allow some images to show only when you have access to the cloudinary Tokens
+Before using this URL Login/Sign up on the Cloudinary website https://cloudinary.com/ It will allow some images to show, only when you have access to the Cloudinary Tokens
+
 
 
 ### Set Up Instructions
