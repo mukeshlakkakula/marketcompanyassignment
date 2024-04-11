@@ -1,13 +1,12 @@
 import React from "react";
 import "./index.css";
+import { IoPersonSharp } from "react-icons/io5";
 const Review = () => {
   const ReviewView = (
     <div className="reviewouterContainer">
       <div className="reviewineerContainer">
         <div>
-          <img
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712743527/R3JvdXBfMl9ra2VmZWY=/grid_landscape"
-            alt="img"
+          <IoPersonSharp
           />
         </div>
         <span>
@@ -19,9 +18,7 @@ const Review = () => {
       </div>
       <div className="reviewineerContainer">
         <div>
-          <img
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712743527/R3JvdXBfMl9ra2VmZWY=/grid_landscape"
-            alt="img"
+          <IoPersonSharp
           />
         </div>
         <p>
@@ -33,9 +30,7 @@ const Review = () => {
       </div>
       <div className="reviewineerContainer">
         <div>
-          <img
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712743527/R3JvdXBfMl9ra2VmZWY=/grid_landscape"
-            alt="img"
+          <IoPersonSharp
           />
         </div>
         <p>
@@ -47,9 +42,7 @@ const Review = () => {
       </div>
       <div className="reviewineerContainer">
         <div>
-          <img
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712743527/R3JvdXBfMl9ra2VmZWY=/grid_landscape"
-            alt="img"
+          <IoPersonSharp
           />
         </div>
         <p>
@@ -61,9 +54,7 @@ const Review = () => {
       </div>
       <div className="reviewineerContainer">
         <div>
-          <img
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712743527/R3JvdXBfMl9ra2VmZWY=/grid_landscape"
-            alt="img"
+          <IoPersonSharp
           />
         </div>
         <p>
