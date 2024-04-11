@@ -12,48 +12,38 @@ const MainContent = () => {
         autoPlay={true}
         infiniteLoop={true}
         showStatus={false}
-        showIndicators={true}
+        showIndicators={false}
         swipeable={false}
         stopOnHover={false}
         showThumbs={false}
         className="carousel "
       >
-        <div>
-          <img
-            className="w-100"
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712807095/VW50aXRsZWRfa2R3bmxm/grid_landscape"
-            alt="Air1"
-          />
+        <div className="CarouselImages">
+          <h4>M.Adarsh</h4>
+          <h4>Air 1</h4>
+          <h6>Top Scorrer in the NEET 2023</h6>
         </div>
 
-        <div>
-          <img
-            className="w-100"
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712807292/VW50aXRsZWRfMV9ncWFncjA=/grid_landscape"
-            alt="Air2"
-          />
+        <div className="CarouselImages">
+          <h4>S.Vineeth</h4>
+          <h4>Air 2</h4>
+          <h6>Top Scorrer in the NEET 2023</h6>
         </div>
 
-        <div>
-          <img
-            className="w-100"
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712807479/VW50aXRsZWRfMl91bDZ0cnM=/grid_landscape"
-            alt="Air3"
-          />
+        <div className="CarouselImages">
+          <h4>B.Akhila</h4>
+          <h4>Air 3</h4>
+          <h6>Top Scorrer in the NEET 2023</h6>
         </div>
-        <div>
-          <img
-            className="w-100"
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712807823/VW50aXRsZWRfM19temluN24=/grid_landscape"
-            alt="Air4"
-          />
+        <div className="CarouselImages">
+          <h4>L.Rajesh</h4>
+          <h4>Air 4</h4>
+          <h6>Top Scorrer in the NEET 2023</h6>
         </div>
-        <div>
-          <img
-            className="w-100"
-            src="https://res-console.cloudinary.com/dnjp2exao/thumbnails/v1/image/upload/v1712807833/VW50aXRsZWRfNF9oeDR5cWk=/grid_landscape"
-            alt="Air5"
-          />
+        <div className="CarouselImages">
+          <h4>I.Anoosha</h4>
+          <h4>Air 5</h4>
+          <h6>Top Scorrer in the NEET 2023</h6>
         </div>
       </Carousel>
     </div>
